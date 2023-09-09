@@ -4,7 +4,7 @@ const responseTextarea = document.getElementById('response');
 
 
 
-const API_KEY = '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';
+const API_KEY = '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';
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
