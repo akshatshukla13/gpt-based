@@ -15,12 +15,13 @@ html{
   font-size: 64.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background: #ffc0c0;
 }
 
 
 
 body{
-  background: #f7f7f7;
+  
   font-family: 'Poppins', sans-serif;
 }
 
@@ -51,7 +52,7 @@ html::-webkit-scrollbar-track{
   background: rgb(235, 202, 245);
 }
 html::-webkit-scrollbar-thumb{
-  background: #420177;
+  background: #017377;
 }
 
 /* navbar starts */
@@ -64,7 +65,7 @@ header{
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
+  background-color: #cecece;
   box-shadow: 0 1px 4px rgba(146,161,176,.3);
 }
 section{
@@ -366,3 +367,14 @@ header .navbar ul li a:hover{
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+.btn {
+  background-color: #0822a5; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
